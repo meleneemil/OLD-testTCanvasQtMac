@@ -35,7 +35,7 @@ void MainWindow::on_pushButton_3_released()
 void MainWindow::fill()
 {
 
-    qDebug("filling");
+//    qDebug("filling");
     h->FillRandom("gaus",100);
 }
 
@@ -43,7 +43,7 @@ void MainWindow::updatePads()
 {
 //    fill();
 
-    qDebug("updating");
+//    qDebug("updating");
 //    c1->cd(1);
 //    gPad->Modified();
 //    gPad->Update();
